@@ -3,6 +3,6 @@ node{
 		git 'https://github.com/surya945/SpringBoot'
 	}
 	stage('Compile-Package'){
-		sh 'mvn package'
+		sh 'mvn clean install'
 	}
 }
